@@ -123,7 +123,7 @@ python installed, if they don't need python bindings.
           </execution>
         </executions>
       </plugin>
-      <plugin>
+      <!-- <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>exec-maven-plugin</artifactId>
         <version>1.1</version>
@@ -161,7 +161,7 @@ python installed, if they don't need python bindings.
             </configuration>
           </execution>
         </executions>
-      </plugin>
+      </plugin> -->
     </plugins>
     <resources>
       <resource>
