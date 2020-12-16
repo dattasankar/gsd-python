@@ -138,9 +138,9 @@ python installed, if they don't need python bindings.
               <executable>protoc</executable>
               <workingDirectory>${basedir}</workingDirectory>
               <arguments>
-                <argument>  --  proto_path=${basedir}/src/main/resources</argument>
-                <argument>  --  java_out=${project.build.directory}/generated-sources/java</argument>
-                <argument>  --  python_out=${project.build.directory}/generated-sources/python/${python_package}</argument>
+                <argument>   proto_path=${basedir}/src/main/resources</argument>
+                <argument>   java_out=${project.build.directory}/generated-sources/java</argument>
+                <argument>   python_out=${project.build.directory}/generated-sources/python/${python_package}</argument>
                 <argument>${basedir}/src/main/resources/*.proto</argument>
               </arguments>
             </configuration>
