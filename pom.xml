@@ -73,13 +73,7 @@ python installed, if they don't need python bindings.
           <target>1.6</target>
         </configuration>
       </plugin>
-      <plugin>
-        <!--
-  SNAPSHOT is considered a 'pre-release' tag (in setuptools terminology),
-  so we replace it with 'preview'.
-
-  http://peak.telecommunity.com/DevCenter/setuptools#specifying-your-project-s-version
-  -->
+      <!-- <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>build-helper-maven-plugin</artifactId>
         <version>1.8</version>
@@ -107,7 +101,7 @@ python installed, if they don't need python bindings.
             </configuration>
           </execution>
         </executions>
-      </plugin>
+      </plugin> -->
       <plugin>
         <!-- Make sure destination directories for protoc output
         exist. -->
